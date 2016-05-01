@@ -1,0 +1,56 @@
+\section{Circuiti}
+\begin{figure}[width=0.7\textwidth]
+ \centering 
+ \includegraphics{Eletr1ResSerie.pdf} 
+ \caption{Eletr1ResSerie.pdf} 
+ \label{gr:02_graph_4.tex}
+\end{figure}
+
+\begin{figure}[width=0.7\textwidth]
+ \centering 
+ \includegraphics{Eletr1respar.pdf} 
+ \caption{Eletr1respar.pdf} 
+ \label{gr:02_graph_4.tex}
+\end{figure}
+
+\begin{figure}[width=0.7\textwidth]
+ \centering 
+ \includegraphics{Eletr1VoltAmpere.pdf} 
+ \caption{Eletr1VoltAmpere.pdf} 
+ \label{gr:02_graph_4.tex}
+\end{figure}
+
+% \begin{figure}[width=0.7\textwidth]
+%  \centering 
+%  \includegraphics{Eletr1_ResSerie.pdf} 
+%  \caption{Eletr1_ResSerie.pdf} 
+%  \label{gr:02_graph_4.tex}
+% \end{figure}
+
+\begin{figure}[width=0.7\textwidth]
+ \centering 
+ \includegraphics{Eletr1ResGeneratore.pdf} 
+ \caption{Eletr1ResGeneratore.pdf} 
+ \label{gr:02_graph_4.tex}
+\end{figure}
+
+\begin{figure}[width=0.7\textwidth]
+ \centering 
+ \includegraphics{Eletr1ResGeneratore2.pdf} 
+ \caption{Eletr1ResGeneratore2.pdf} 
+ \label{gr:02_graph_4.tex}
+\end{figure}
+
+\begin{figure}[width=0.7\textwidth]
+ \centering 
+ \includegraphics{Eletr1ResVoltmetro.pdf} 
+ \caption{Eletr1ResVoltmetro.pdf} 
+ \label{gr:02_graph_4.tex}
+\end{figure}
+
+\begin{figure}[width=0.7\textwidth]
+ \centering 
+ \includegraphics{Eletr1ResAmperometro.pdf} 
+ \caption{Eletr1ResAmperometro.pdf} 
+ \label{gr:02_graph_4.tex}
+\end{figure}

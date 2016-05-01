@@ -1,0 +1,152 @@
+
+\subsection{Misure dirette di resistenze}
+I valori riportati in tabella (valori in $\Omega$) sono quelli delle misure dirette delle resistenze, prese col multimetro FLUKE 111; il fondo scala \`e di $200mA$ per le correnti e di $600mV$ per le tensioni.
+
+%tabella RES DIRETTE
+\begin{tabella}
+	\centering
+	\input{./tabelle/01_tab_1.tex}
+	\caption{Misure dirette resistenze}
+	\label{tab:01_tab_1.tex}
+\end{tabella}
+
+
+Per stimare gli errori si \`e usata la formula seguente:
+%formula diretta
+\[ \sigma_R =\sqrt{ \sigma_{\textrm{sist}}^2 + \sigma_{\textrm{stat}}^2}= 0.58 \sqrt{(R\cdot\Delta P)^2 + (n_{\textrm{digit}} \cdot \min(\textrm{FS}))^2}\]
+Infatti gli errori legati alla misurazione sono dovuti sia a errori di scala ($ R= k _R \cdot R^{(r)} $), sia a errori casuali connessi al numero di digit. Per chiarezza di notazione, $\sigma^{(r)}$ \`e considerato errore statistico, mentre con $\sigma$ si intende l'errore totale.
+
+Per quanto riguarda le resistenze $R_5$ e $R_6$ in serie, da una misurazione diretta effettuata col multimetro FLUKE 111 risulta che $R_{\textrm{S,sper}}= (402 \pm 2 )\Omega$. Col calcolo teorico, il valore di tale resistenza equivalente risulta invece $R_{\textrm{S, teor}}=(402 \pm 2 )\Omega$, dove per l'errore teorico \`e stato considerato che $R_{\textrm{S,teor}}=k\cdot(R_1^{(r)} + R_2^{(r)})$, infatti la k \`e costante in misurazioni successive, mantenendo il medesimo fondo scala. Con semplice propagazione degli errori risulta che 
+\[\sigma_{R_{\textrm{S,teor}}}=\sqrt{(R_1+R_2)^2\cdot\sigma_k^2+\sigma_{R_1^{(r)}}^2+\sigma_{R_2^{(r)}}^2}\]
+dove $\sigma_k$ \`e stata ricavata dall'errore percentuale fornito dal costruttore del multimetro e considerando k distribuito uniformemente:
+\(\sigma_k=0.58 \cdot Err\%\). 
+\`E stata calcolata la correlazione tra le due diverse stime della resistenza, considerando che la loro differenza dovrebbe essere nulla:
+\[\Delta R = R_{\textrm{S,teor}}} - \sigma{R_{\textrm{S,sper}}\]
+\[\lambda=\frac{\left|\Delta R - 0\right|}{\sigma_{\Delta R}}=0.5\]
+con $\Delta R = k\cdot(R_{\textrm{S,sper}}^{(r)}-R_1^{(r)}-R_2^{(r)})$, da cui per propagazione si ricava che 
+\[ \sigma_{\Delta R} = 
+        \sqrt{ (\Delta R)^2 \sigma_k^2 + 3 \sigma_R^{(r) 2} }\]
+
+Per il calcolo della resistenza equivalente a $R_5$ e $R_6$ in parallelo, il valore misurato con il multimetro FLUKE 111 \`e $R_{\textrm{P,sper}}= (94 \pm 2) \Omega$.
+Il valore teorico \`e $R_{\textrm{P,teor}}=(94 \pm 0.5) \Omega$: considerando che $R_{\textrm{P,teor}}=k  \frac{R_5^{(r)} R_6^{(r)}}{R_5^{(r)} + R_6^{(r)}}$ e propagando, riutilizzando la medesima semplificazione sull'errore di scala, si ottiene 
+\[\sigma_{\textrm{P,teor}}=\sqrt{\left(\frac{R_5 R_6}{R_5+R_6}\right)^2 \sigma_k^2 + \frac{R_5^4 + R_6^4}{(R_5 + R_6)^4}  \sigma_{R_{\textrm{P,teor}}^{(r)}}^2} .\]
+Per il calcolo della compatibilit\`a, si sono utilizzate le medesime formule che per le resistenze in serie, opportunamente adattate (con la stessa convenzione per $\Delta R$):
+\[\lambda=\frac{\left|\Delta R - 0\right|}{\sigma_{\Delta R}}=0.24\]
+con $\Delta R = k\cdot(R_{\textrm{S,sper}}^{(r)}-R_1^{(r)}-R_2^{(r)})$, da cui per propagazione si ricava che 
+\[ \sigma_{\Delta R} = 
+        \sqrt{ (\Delta R)^2 \sigma_k^2 + 3 \sigma_R^{(r) 2} }\]
+
+
+%%\[\lambda=
+%%	\frac{ \left|(R_{\textrm{P,teor}}-R_{\textrm{P,sper}})-0 \right| } { \sigma_{R_{\textrm{P,teor}}}-\sigma_{R_{\textrm{P,sper}}}}=0.14.\] 
+
+Nota bene: tutti i calcoli sono stati effettuati mantenendo un numero superiore di cifre significative, riducendone il numero solo in sede di presentazione dati.
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Misura voltamperometrica di una resistenza}
+Per misurare una resistenza piccola \`e stato costruito un circuito come in figura (da aggiungersi). Una prima misura diretta \`e stata effettuata utilizzando il multimetro FLUKE 111, che \`e risultata $R_x=(3.0 \pm 0.1) \Omega$.
+Costruito il circuito, si \`e variata la resistenza di carico e la potenza erogata dal generatore per indagare di quanto fosse la caduta di potenziale al variare della corrente che attraversa R. I dati ottenuti sono riportati in tabella. 
+
+%tabella AMPERE-VOLT
+\begin{tabella}
+	\centering
+	\input{./tabelle/02_tab_1.tex}
+	\caption{Misure caduta di potenziale}
+	\label{tab:02_tab_1.tex}
+\end{tabella}
+
+In grafico sono riportate tali misure esprimendo V in funzione di I, sovrapposte a un fit lineare ottenuto col metodo della massima verosimiglianza.
+
+\begin{grafico}
+\centering
+\input{../gnuplot/immagini/02_fitlin.tex}
+\caption{Fit lineare}
+\label{fig:fitlin}
+\end{grafico}
+
+I coefficienti della retta interpolante $y=mx+q$ sono:
+\[m = (2.804 \pm 0.006) \Omega \]
+\[q = (0.6 \pm 0.4) mV.\]
+%Calcolando la covarianza tra $m$ e $c$ si ottiene 
+%\[cov(m, c) = -0.000660084 V^4\] %UDM
+Si \`e calcolata la correlazione 
+\[\rho(m, q) = \frac{cov(m, q)}{\sigma_m \sigma_q}=-0.89\]
+e l'errore a posteriori sulla caduta di tensione \`e di $\sigma_V=0.6mV$.
+
+A seguire il grafico dei residui: si \`e rappresentata la differenza tra il valore di tensione misurato e quello ricavato teoricamente dalla retta interpolante in corrispondenza del suo valore di corrente.
+
+\begin{grafico}
+\centering
+\input{../gnuplot/immagini/02_residui.tex}
+\caption{Residui}
+\label{fig:residui}
+\end{grafico}
+
+Una stima della resistenza \`e data dalla pendenza della retta interpolante. Tale retta ha un errore che \`e composizione di un errore sistematico e di uno statistico, infatti si pu\`o scrivere $m=\frac{k_V (V_2^{(r)}-V_1^{(r)})}{k_i (i_2^{(r)} - i_1^{(r)})}=\frac{k_V}{k_i}m^{(r)}$.
+Da una propagazione risulta che l'errore su tale grandezza \`e $\sigma_m=\sqrt{\sigma_{\textrm{m,fit}}^2 + \sigma_{k_V}^2 m^2 + \sigma_{k_i}^2 m^2}$ con $\sigma_{\textrm{m,fit}}$ errore casuale ottenuto dall'interpolazione.
+Risulta che l'incertezza sulla resistenza \`e quasi completamente data dall'errore sistematico. Il risultato finale \`e $R=(2.8 \pm 0.4) \Omega$; l'errore percentuale \`e del $13 \%$.
+
+Si possono confrontare il risultato teorico e quello sperimentale con un calcolo di compatibilit\`a. Dato che sono state usate strumentazioni differenti per le due stime, se ne pu\`o applicare la definizione: 
+$\lambda=\frac{|R_x - R|}{\sqrt{\sigma_{R_x}^2+\sigma_R^2}}=0.5$.
+ 
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Resistenze interne degli strumenti di misura}
+Attraverso costruzioni di circuiti o misure dirette, si sono stimate le resistenze interne degli strumenti utilizzati.
+Per la stima della resistenza interna del generatore si \`e costruito un circuito come in figura (da aggiungersi) e utilizzato il voltmetro AGILENT U1232A con l'amperometro BECKMAN T110B.
+Dalle misure risulta che
+\begin{align}
+V_0 &=(5.01 \pm 0.01 )V \ \textrm{con}\  V_{\textrm{FS}}=6V \\
+i   &=(124.9 \pm 0.5) mA \ \textrm{con}\  i_{\textrm{FS}}=200mA \\
+V   &=(5.00 \pm 0.01) V \ \textrm{con}\  V_{\textrm{FS}}=6V.
+\end{align}
+Da uno studio del circuito si ricava la formula $R_G=\frac{V_0-V}{V}$.
+Stimandone l'errore, per evitare problemi di correlazione si pu\`o scrivere $R_G=\frac{k_v (V_0^{(r)}- V^{(r)})}{i}$, da cui propagando: 
+\[\sigma_{R_G}=\sqrt{R_G^2 \sigma_{k_V}^2 + \frac{(\sigma_{V^{(r)}}^2 + \sigma_{V_0^{(r)}}^2)}{i^2} + \frac{(V_0-V)^2}{i^4} \sigma_i^2},\] ricordando che per $\sigma_i$ si intende l'errore strumentale totale. Concludendo, $R_G= (0.10 \pm 0.16) \Omega$.
+
+Un diverso circuito \`e stato costruito per stimare la resistenza interna dell'AGILENT U1232A utilizzato come voltmetro.
+Una misurazione diretta di $R_V$ \`e stata ottenuta utilizzando come ohmetro il BECKMAN T110B: $R_{\textrm{V, sper}}=(11.2 \pm 0.1) M\Omega$, con fondo scala di $20 M\Omega$. 
+Le misure prese a circuito chiuso sono: 
+\begin{align}
+R_S &= (0.990 \pm 0.005) M\Omega \ \textrm{con}\  R_{\textrm{FS}}=6 M\Omega \\
+V_0 &= (5.01 \pm 0.01) V \ \textrm{con}\  V_{\textrm{FS}} = 6 V \\
+V &= (4.60 \pm 0.01) V \ \textrm{con}\  V_{\textrm{FS}} = 6 V
+\end{align}
+Studiando il circuito, si pu\`o dimostrare che 
+\[ R_{\textrm{V, teor}} = \frac{R_S V}{V_0 - V} . \]
+Portando fuori dai valori il coefficiente $k_V$ e semplificandolo, si ha $R_{\textrm{V, teor}} = \frac{R_S V^{(r)}}{V_0^{(r)} - V^{(r)}}$ da cui, propagando, si ottiene \[\sigma_{R_{\textrm{V,teor}}} = \sqrt{\sigma_{R_S}^2 \left(\frac{V}{(V_0 - V)^2} \right)^2 + \sigma_{V_{(r)}}^2 \left(\frac{R_S V_0}{(V_0 - V)^2}\right)^2 + \sigma_{V_0^{(r) 2}} \left(\frac{R_S V}{(V_0 - V)^2}\right)^2}.\]
+Risulta $R_{\textrm{V, teor}} = (11.19 \pm 0.08) M\Omega$.
+
+
+Per misurare la resistenza interna del BECKMAN T110B, usato come amperometro, si \`e semplicemente effettuato un collegamento con il FLUKE 111 usato come ohmetro. I valori sono riportati in tabella.
+
+%tabella RESISTENZE AMPEROMETRO
+\begin{tabella}
+	\centering
+	\input{./tabelle/03_tab_1.tex}
+	\caption{Resistenze dell'amperometro BECKMAN}
+	\label{tab:03_tab_1.tex}
+\end{tabella}
+

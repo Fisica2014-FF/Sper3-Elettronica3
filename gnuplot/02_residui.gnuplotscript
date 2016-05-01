@@ -1,0 +1,11 @@
+set terminal tikz
+set output 'gnuplot/immagini/02_residui.tex'
+# set title 'Grafico dei residui'
+set xlabel 'i (mA)'
+set ylabel 'V (mV)'
+###set xtitle 
+###set ytitle 'Residui'
+set xrange [20:120]
+
+f(x)=0
+plot 'dati_formattati/02_fitlin.txt' u ($1):($2):(0.56376) w errorbars title 'Residui' lt rgb '#FF0101', f(x) title '' lt rgb '#000000'

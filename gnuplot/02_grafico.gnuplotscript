@@ -1,0 +1,20 @@
+set terminal tikz
+set output 'gnuplot/immagini/02_fitlin.tex'
+#set title 'Fit lineare'
+set xlabel 'i (mA)'
+set ylabel 'V (mV)'
+###set xtitle 
+###set ytitle
+
+#f(x) = q +m*x
+#fit f(x) 'dati_formattati/02_dati_01.txt' via q,m
+#plot f(x), 'dati_formattati/02_dati_01.txt' 
+
+set xrange [20:120]
+
+set key bottom right
+
+f(x) = q + m * x
+q=0.592582
+m=2.80385
+plot f(x) lt rgb '#FF0101' title 'Retta interpolante', 'dati_formattati/02_dati_01.txt' lt rgb '#000000' title 'Dati'

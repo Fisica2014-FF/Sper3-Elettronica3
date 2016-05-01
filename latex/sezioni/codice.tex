@@ -1,0 +1,43 @@
+\'E presentata qua la parte fondamentale del codice in c++ usato per i calcoli numerici. Inoltre è stato usato per i calcoli Mathematica.
+
+\begin{lstlisting}[language=C++]
+double interp_delta(int N, double * x, double * y)
+{
+	double delta=N*sumquad(N, x)-((sum(N, x))*(sum(N, x)));
+	return delta;
+}
+double interp_a(int N, double * x, double * y)
+{
+	double a=(1/interp_delta(N, x, y))*((sumquad(N, x))*(sum(N, y))-(sum(N, x))*(sumprod (N, x, y)));
+	return a;
+}
+double interp_b(int N, double * x, double * y)
+{
+	double b=(1/interp_delta(N, x, y))*(N*(sumprod(N, x, y))-((sum(N, x))*(sum(N, y))));
+	return b;
+}
+double sigmay_post(int N, double * x, double * y)
+{
+	double sy=0;
+	for (int i=0; i<N; i++){
+		sy+=((interp_a(N, x, y))+((interp_b(N, x, y))*x[i])-(y[i]))*((interp_a(N, x, y))+((interp_b(N, x, y))*x[i])-(y[i]));
+	}
+	sy=sy/(N-2);
+	sy=sqrt(sy);
+	return sy;
+}
+double interp_sigmaa(int N, double * x, double * y)
+{
+	double sa=(sigmay_post(N, x, y))*sqrt((sumquad(N, x))/(interp_delta(N, x, y)));
+	return sa;
+}
+double interp_sigmab(int N, double * x, double * y)
+{
+	double sb=(sigmay_post(N, x, y))*sqrt(N/(interp_delta(N, x, y)));
+	return sb;
+}
+double cov_mq(int N, double * x, double * y)
+{
+	return (-(sum(N, x)*sigmay_post(N, x, y)*sigmay_post(N, x, y)/interp_delta(N, x, y)));
+}
+\end{lstlisting}
