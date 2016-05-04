@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.1)  4 MAY 2016 21:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.1)  5 MAY 2016 00:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1589,8 +1589,12 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
 )
-Overfull \hbox (205.61443pt too wide) in paragraph at lines 317--22
+Overfull \hbox (205.61443pt too wide) in paragraph at lines 331--22
  [][] 
  []
 
@@ -1608,8 +1612,12 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
 )
-Overfull \hbox (205.61443pt too wide) in paragraph at lines 318--63
+Overfull \hbox (205.61443pt too wide) in paragraph at lines 332--63
  [][] 
  []
 
@@ -1618,20 +1626,98 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/qpl/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
  [2] [3] [4] (./sezioni/parti_esperimento/parte_2.tex
+(../grafici/risultati/amp_noninv_A10.tex
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+)
+Overfull \hbox (91.80518pt too wide) in paragraph at lines 304--10
+ [][] 
+ []
 
-! LaTeX Error: File `../grafici/risultati/amp_noninv_A10.tex' not found.
+
+LaTeX Warning: Command \` invalid in math mode on input line 22.
+
+(../grafici/risultati/amp_noninv_A5.tex
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+)
+Overfull \hbox (205.61443pt too wide) in paragraph at lines 271--42
+ [][] 
+ []
+
+
+LaTeX Warning: Command \` invalid in math mode on input line 54.
+
+(../grafici/risultati/amp_noninv_A1.tex
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+)
+Overfull \hbox (205.61443pt too wide) in paragraph at lines 289--73
+ [][] 
+ []
+
+
+LaTeX Warning: Command \` invalid in math mode on input line 85.
+
+
+! LaTeX Error: File `../grafici/risultati/amp_noninv_all.tex' not found.
 
 Type X to quit or <RETURN> to proceed,
 or enter new name. (Default extension: tex)
 
-Enter file name: q
-(/usr/share/texlive/texmf-dist/tex/latex/tools/q.tex File ignored
-)
+Enter file name: X
 
-LaTeX Warning: Command \` invalid in math mode on input line 22.
+! You can't use `\end' in internal vertical mode.
+\@missingfileerror ... \@gtempa \batchmode \@@end 
+                                                  \fi \filename@parse \@gtem...
+l.97 ...t{../grafici/risultati/amp_noninv_all.tex}
+                                                  
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-! LaTeX Error: File `../grafici/risultati/amp_noninv_A5.tex' not found.
+! LaTeX Error: File `X.tex' not found.
 
 Type X to quit or <RETURN> to proceed,
 or enter new name. (Default extension: tex)
@@ -1640,17 +1726,17 @@ Enter file name:
 ! Emergency stop.
 <read *> 
          
-l.41 ...ut{../grafici/risultati/amp_noninv_A5.tex}
+l.97 ...t{../grafici/risultati/amp_noninv_all.tex}
                                                   ^^M
 *** (cannot \read from terminal in nonstop modes)
 
  
 Here is how much of TeX's memory you used:
- 24926 strings out of 493304
- 431489 string characters out of 6139872
- 685113 words of memory out of 5000000
- 27710 multiletter control sequences out of 15000+600000
+ 25831 strings out of 493304
+ 450398 string characters out of 6139872
+ 724026 words of memory out of 5000000
+ 28609 multiletter control sequences out of 15000+600000
  161293 words of font info for 103 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 65i,11n,92p,878b,973s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,11n,92p,878b,995s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
