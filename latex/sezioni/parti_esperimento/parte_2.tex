@@ -1,0 +1,104 @@
+Le misure sono state effettuate sull'amplificatore non invertente utilizzato al punto precedente e applicando una tensione sinusoidale 
+di frequenza variabile mantenendo l'ampiezza $V_s= 2 V_{pp}$.
+
+\subsection{Amplificatore con A=10}
+Le resistenze inserite sono le stesse dello schema precedente, e quindi anche l'amplificazione teorica.
+
+\begin{grafico}
+ \centering 
+ \input{../grafici/risultati/amp_noninv_A10.tex} 
+ \caption{Risposta in frequenza di un amplificatore non invertente con A=10} 
+ \label{gr:amp_noninv_A10.tex} 
+\end{grafico}
+
+\begin{tabella}
+ \centering
+ %inserire tabella
+ \caption{Dati risposta in frequenza}
+ \label{tab:tab_noninv_A10.tex}
+\end{tabella}
+
+Sono state interpolate separatamente la zona di plateau e di discesa, ottenendo come risultati:
+$A_{plateau}=quel che è \pm$
+%inserire retta interpolante
+
+La closed-loop bandwidth, $f_b$, del circuito, è stata ricavata intersecando la retta di discesa con la retta orizzontale a 
+$-3 \,dB$ e applicando la propagazione degli errori al calcolo %da fare
+$f_b= \pm \,Hz $
+Il GBP è
+$GBP=A_{CL} \cdot f_b $
+
+\subsection{Amplificatore con A=5}
+Le resistenze inserite sono state sostituite con:
+$R_{1,up}=5.54 \pm \,k\Omega $%mettere errore
+$R_{1,down}=5.54 \pm \,k\Omega$ %mettere errore
+$R_{2,up}=26.93 \pm \,k\Omega$ %mettere errore
+$R_{2,down}=26.90 \pm \,k\Omega$
+$R_4=56.0 \pm \,\Omega$
+
+\begin{grafico}
+ \centering 
+ \input{../grafici/risultati/amp_noninv_A5.tex} 
+ \caption{Risposta in frequenza di un amplificatore non invertente con A=5} 
+ \label{gr:amp_noninv_A5.tex} 
+\end{grafico}
+
+\begin{tabella}
+ \centering
+ %inserire tabella
+ \caption{Dati risposta in frequenza}
+ \label{tab:tab_noninv_A5.tex}
+\end{tabella}
+
+Sono state interpolate separatamente la zona di plateau e di discesa, ottenendo come risultati:
+$A_{plateau}=quel che è \pm$
+%inserire retta interpolante
+
+Dall'interpolazione si è poi ricavato 
+$f_b= \pm \,Hz $
+Il GBP è
+$GBP=A_{CL} \cdot f_b $
+
+
+\subsection{Amplificatore con A=1}
+Le resistenze inserite sono state sostituite con:
+$R_{1,up}=32.55 \pm \,k\Omega $%mettere errore
+$R_{1,down}=32.55 \pm \,k\Omega$ %mettere errore
+$R_{2,up}=32.67 \pm \,k\Omega$ %mettere errore
+$R_{2,down}=32.53 \pm \,k\Omega$
+$R_4=56.0 \pm \,\Omega$
+\begin{grafico}
+ \centering 
+ \input{../grafici/risultati/amp_noninv_A1.tex} 
+ \caption{Risposta in frequenza di un amplificatore non invertente con A=1} 
+ \label{gr:amp_noninv_A1.tex} 
+\end{grafico}
+
+\begin{tabella}
+ \centering
+ %inserire tabella
+ \caption{Dati risposta in frequenza}
+ \label{tab:tab_noninv_A1.tex}
+\end{tabella}
+
+Sono state interpolate separatamente la zona di plateau e di discesa, ottenendo come risultati:
+$A_{plateau}=quel che è \pm$
+%inserire retta interpolante
+
+Dall'interpolazione si è poi ricavato 
+$f_b= \pm \,Hz $
+Il GBP è
+$GBP=A_{CL} \cdot f_b $
+
+\subsection{Discussione dei punti precedenti}
+
+\begin{grafico}
+ \centering 
+ \input{../grafici/risultati/amp_noninv_all.tex} 
+ \caption{Risposta in frequenza di un amplificatore non invertente a varie amplificazioni} 
+ \label{gr:amp_noninv_all.tex} 
+\end{grafico}
+%Discutere come si comporta la variabile GBP 
+%IL GBP FA SCHIFO
+
+

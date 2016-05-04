@@ -1,0 +1,64 @@
+\subsection{Amplificatore invertente}
+Schema amplificatore invertente:
+%inserire circuito
+Le resistenze sono state scelte in modo da avere guadagno $A=-10 \frac{V}{V}$
+$R_1=9.85 \pm \,k\Omega $%mettere errore
+$R_2=101.3 \pm \,k\Omega$ %mettere errore
+$R_3=56.0 \pm \,\Omega$ %mettere errore
+
+\subsubsection{Calcolo amplificazione}
+Dimostrazione che amplificazione in configurazione invertente è data da %inserire dimostrazione
+
+\subsubsection{Analisi}
+La stima di A teorica, a partire dalle resistenze misurate è:
+$A_{teorica}=$ %inserire valore teorico
+
+Le misure sono state fatte applicando una tensione sinusoidale di frequenza $ f=1 \,kHz$, variando l'ampiezza tra 
+$0.2 V_{pp}$ e $4 V_{pp}$.
+
+\begin{grafico} \centering \input{../grafici/risultati/amp_inv.tex} \caption{Curva di trasferimento di un amplificatore invertente} \label{gr:amp_inv.tex} \end{grafico}
+\begin{tabella}
+ \centering
+ %inserire tabella
+ \caption{Dati curva di trasferimento}
+ \label{tab:tab_inv.tex}
+\end{tabella}
+
+E' stata fatta l'interpolazione lineare pesata dei punti compresi tra 0 e 1.5 V.
+%retta interpolazione
+
+
+
+
+\subsection{Amplificatore non invertente}
+
+Schema amplificatore non invertente:
+%inserire circuito
+Le resistenze sono state scelte in modo da avere guadagno $A=10 \frac{V}{V}$
+$R_{1,up}=9.91 \pm \,k\Omega $%mettere errore
+$R_{1,down}=9.85 \pm \,k\Omega$ %mettere errore
+$R_{2,up}=99.7 \pm \,k\Omega$ %mettere errore
+$R_{2,down}=101.3 \pm \,k\Omega$
+$R_4=56.0 \pm \,\Omega$
+
+\subsubsection{Calcolo amplificazione}
+Dimostrazione che amplificazione in configurazione non invertente è data da %inserire dimostrazione
+
+\subsubsection{Analisi}
+La stima di A teorica, a partire dalle resistenze misurate è:
+$A_{teorica}=$ %inserire valore teorico
+
+Le misure sono state fatte applicando una tensione sinusoidale di frequenza $ f=1 \,kHz$, variando l'ampiezza tra 
+$0.2 V_{pp}$ e $4 V_{pp}$.
+
+\begin{grafico} \centering \input{../grafici/risultati/amp_noninv.tex} \caption{Curva di trasferimento di un amplificatore invertente} \label{gr:amp_noninv.tex} \end{grafico}
+\begin{tabella}
+ \centering
+ %inserire tabella
+ \caption{Dati curva di trasferimento}
+ \label{tab:tab_non_inv.tex}
+\end{tabella}
+
+E' stata fatta l'interpolazione lineare pesata dei punti compresi tra 0 e 1.5 V.
+%retta interpolazione
+
