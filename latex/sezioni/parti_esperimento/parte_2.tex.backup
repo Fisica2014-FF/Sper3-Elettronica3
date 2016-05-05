@@ -13,7 +13,7 @@ Le resistenze inserite sono le stesse dello schema precedente, e quindi anche l'
 
 \begin{tabella}
  \centering
- \input{tabelle/tab_noninv_a10.tex} 
+ %inserire tabella
  \caption{Dati risposta in frequenza}
  \label{tab:tab_noninv_A10.tex}
 \end{tabella}
@@ -45,7 +45,7 @@ $R_4=56.0 \pm \,\Omega$
 
 \begin{tabella}
  \centering
-  \input{tabelle/tab_noninv_a5.tex} 
+ %inserire tabella
  \caption{Dati risposta in frequenza}
  \label{tab:tab_noninv_A5.tex}
 \end{tabella}
@@ -76,7 +76,7 @@ $R_4=56.0 \pm \,\Omega$
 
 \begin{tabella}
  \centering
- \input{tabelle/tab_noninv_a1.tex} 
+ %inserire tabella
  \caption{Dati risposta in frequenza}
  \label{tab:tab_noninv_A1.tex}
 \end{tabella}
