@@ -1,0 +1,13 @@
+A 1.00883 0.0110794
+q 5.5295 0.224463
+m -1.00346 0.0409819
+Info in <TCanvas::Print>: TeX file Result/amp_noninv_A1.tex has been created
+A 4.86957 0.0537338
+q 6.17382 0.231649
+m -1.01118 0.042294
+Info in <TCanvas::Print>: TeX file Result/amp_noninv_A5.tex has been created
+A 9.85991 0.11834
+q 3.99521 0.7232
+m -0.589122 0.13487
+Info in <TCanvas::Print>: TeX file Result/amp_noninv_A10.tex has been created
+Info in <TCanvas::Print>: TeX file Result/amp_noninv_all.tex has been created
