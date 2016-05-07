@@ -6,6 +6,11 @@ $R_1=9.85 \pm 0.05\,k\Omega $%mettere errore
 $R_2=101.3 \pm 0.6\,k\Omega$ %mettere errore
 $R_3=56.0 \pm 0.3\,\Omega$ %mettere errore
 
+Per il calcolo degli errori sul valore delle resistenze, lette sull'Agilent U1232A, è stata utilizzata la seguente formula:
+$$\sigma_{tot}=\sqrt{ \sigma^{2} _{\%} + \sigma^{2} _{dgt}}$$
+Per il calcolo delle $\sigma_{tot}$ è stato cercato del datasheet dello strumento, l'errore percentuale e di digit
+corrispondente al fondo scala utilizzato.
+
 \subsubsection{Calcolo amplificazione}
 Dimostrazione che amplificazione in configurazione invertente è data da %inserire dimostrazione
 
@@ -29,6 +34,9 @@ $0.2 V_{pp}$ e $4 V_{pp}$.
  \caption{Dati curva di trasferimento}
  \label{tab:tab_inv.tex}
 \end{tabella}
+
+Per il calcolo degli errori sui valori di $V_{in}$ e $V_{out}$ letti sull'oscilloscopio, è stata utilizzata la seguente formula:
+$$\sigma_{tot}=\sqrt{ (0.02\cdot V_{letto})^2 + (0.06 \cdot V_{div})^2}$$
 
 E' stata fatta l'interpolazione lineare pesata dei punti compresi tra 0 e 1.5 V.
 %retta interpolazione
