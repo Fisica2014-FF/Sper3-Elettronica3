@@ -12,24 +12,26 @@
 
 class Graph
 {
+	// class storing vector of points as vector of doubles
+	// and can return pointers to the data, for root's TGraph
 	public:
 		Graph();
 		virtual ~Graph();
 		double* x()
 		{
-			return &(vx[0]);
+			return vx.data();
 		};
 		double* y()
 		{
-			return &(vy[0]);
+			return vx.data();
 		};
 		double* ex()
 		{
-			return 0;
+			return vex.data();
 		};
 		double* ey()
 		{
-			return &(vey[0]);
+			return vey.data();
 		};
 
 		unsigned int n()
@@ -38,9 +40,11 @@ class Graph
 		};
 
 		void add(double x, double y, double ey);
+
 	private:
 		std::vector<double> vx;
 		std::vector<double> vy;
+		std::vector<double> vex;
 		std::vector<double> vey;
 
 		unsigned int num;

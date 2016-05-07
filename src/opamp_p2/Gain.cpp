@@ -3,6 +3,8 @@
  *
  *  Created on: 30/apr/2016
  *      Author: enrico
+ *
+ *  Scritto per root 6.06.02
  */
 
 #include <string>
@@ -14,27 +16,32 @@
 #include <TAxis.h>
 
 #include "OpampAnalysis.h"
+#include "AdHocParameters.h"
 
 using namespace std;
 
 int main(int argc, char** argv)
 {
+	// initialize folder name, where data is stored
 	OpampAnalysis::basename =
 		string(argv[1]);
 
-	array<string, 3> type{"1", "5", "10"};
+	// initialize parameters
+	array<AdHocParameters, 3> parameters{{
+		{"/amp_noninv_A1", 5001, 100001, 399999},
+		{"/amp_noninv_A5", 99999, 300001, 999999},
+		{"/amp_noninv_A10", 100000, 1000000, 2000000}
+	}};
 
-	for (auto i: type)
+	for (auto i: parameters)
 	{
-		cout << i << endl;
-		string filename = "/amp_noninv_A" + i;
-		unique_ptr<OpampAnalysis> oA(new OpampAnalysis(filename));
+		unique_ptr<OpampAnalysis> oA(new OpampAnalysis(i));
 		oA->analysis();
-		cout <<"A = " << i + " completato\n\n\n";
 	}
 
 	string name = "Result/amp_noninv_all.tex";
 
+	// canvas to store the graphs of all amplitudes
 	TCanvas *cAll = new TCanvas("Risposta in frequenza");
 	cAll->SetGrid();
 	cAll->SetLogx();
@@ -47,7 +54,6 @@ int main(int argc, char** argv)
 	OpampAnalysis::gAll->GetYaxis()->SetTitle("A");
 
 	OpampAnalysis::gAll->Draw("A");
-
 
 	cAll->Print(name.c_str());
 

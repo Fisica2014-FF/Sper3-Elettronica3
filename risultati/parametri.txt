@@ -1,13 +1,35 @@
-A 1.00883 0.0110794
-q 5.5295 0.224463
-m -1.00346 0.0409819
-Info in <TCanvas::Print>: TeX file Result/amp_noninv_A1.tex has been created
-A 4.86957 0.0537338
-q 6.17382 0.231649
-m -1.01118 0.042294
-Info in <TCanvas::Print>: TeX file Result/amp_noninv_A5.tex has been created
-A 9.85991 0.11834
-q 3.99521 0.7232
-m -0.589122 0.13487
-Info in <TCanvas::Print>: TeX file Result/amp_noninv_A10.tex has been created
-Info in <TCanvas::Print>: TeX file Result/amp_noninv_all.tex has been created
+/home/enrico/Dropbox/Laboratorio 3o anno/Prima esperienza/Dati/amp_noninv_A1.txt
+Warning in <Fit>: Fit data is empty 
+Error in <TFitResultPtr>: TFitResult is empty - use the fit option S
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007f45e0c8eb4c in __libc_waitpid (pid=13353, stat_loc=stat_loc
+entry=0x7ffd9ba9fc40, options=options
+entry=0) at ../sysdeps/unix/sysv/linux/waitpid.c:31
+#1  0x00007f45e0c142e2 in do_system (line=<optimized out>) at ../sysdeps/posix/system.c:148
+#2  0x00007f45e1a72e63 in TUnixSystem::StackTrace (this=0x1daa8e0) at /home/enrico/Unpack/root-6.06.02/core/unix/src/TUnixSystem.cxx:2301
+#3  0x00007f45e1a756ac in TUnixSystem::DispatchSignals (this=0x1daa8e0, sig=kSigSegmentationViolation) at /home/enrico/Unpack/root-6.06.02/core/unix/src/TUnixSystem.cxx:3539
+#4  <signal handler called>
+#5  0x000000000040598a in OpampAnalysis::analysis (this=0x1e1dda0) at ../OpampAnalysis.cpp:106
+#6  0x00000000004037b4 in main (argc=2, argv=0x7ffd9baa2a08) at ../Gain.cpp:39
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+If they do not help you then please submit a bug report at
+http://root.cern.ch/bugs. Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x000000000040598a in OpampAnalysis::analysis (this=0x1e1dda0) at ../OpampAnalysis.cpp:106
+#6  0x00000000004037b4 in main (argc=2, argv=0x7ffd9baa2a08) at ../Gain.cpp:39
+===========================================================
+
+
