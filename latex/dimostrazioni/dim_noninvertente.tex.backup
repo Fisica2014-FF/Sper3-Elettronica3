@@ -1,0 +1,13 @@
+Nell'ingresso invertente:
+$\frac{V_1-V_p}{R_1}=\frac{V_p}{R_2}$
+$\frac{V_1}{R_1}=\frac{V_p}{R_1}+\frac{V_p}{R_2}=V_p \left(\frac{1}{R_1}+\frac{1}{R_2}\right)$
+
+Nell'ingresso non invertente:
+$\frac{V_0-V_n}{R_2}=\frac{V_n}{R_1}$
+$\frac{V_0}{R_2}=\frac{V_n}{R_1}+\frac{V_n}{R_2}=V_n \left(\frac{1}{R_1}+\frac{1}{R_2}\right)$
+
+Poichè 
+$V_p=V_n$
+
+$\frac{V_1}{R_1}=\frac{V_0}{R_2}$
+$V_0=\frac{R_2}{R_1} \cdots V_1$
