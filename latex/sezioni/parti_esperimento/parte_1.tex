@@ -27,6 +27,8 @@ $A_\textrm{teorica}=10.28 \pm 0.08$ %inserire valore teorico
 Le misure sono state fatte applicando una tensione sinusoidale di frequenza $ f=1 \,kHz$, variando l'ampiezza tra 
 $0.2 V_\textrm{pp}$ e $4 V_\textrm{pp}$.
 
+In seguito è stato fatto il grafico della curva di trasferimento di un amplificatore invertente.
+
 \begin{grafico}
  \centering
  \resizebox{\textwidth}{!}{%
@@ -36,6 +38,8 @@ $0.2 V_\textrm{pp}$ e $4 V_\textrm{pp}$.
  \label{gr:amp_inv.tex} 
 \end{grafico}
 
+
+In seguito sono presentati i dati del  \autoref{gr:amp_inv.tex} acquisiti in laboratorio, con i rispettivi errori:
 \begin{tabella}
  \centering
  \input{tabelle/tab_inv.tex} 
@@ -46,7 +50,7 @@ $0.2 V_\textrm{pp}$ e $4 V_\textrm{pp}$.
 Per il calcolo degli errori sui valori di $V_\textrm{in}$ e $V_\textrm{out}$ letti sull'oscilloscopio, è stata utilizzata la seguente formula:
 $$\sigma_\textrm{tot}=\sqrt{ (0.02\cdot V_\textrm{letto})^2 + (0.06 \cdot V_\textrm{div})^2}$$
 
-E' stata fatta l'interpolazione lineare pesata dei punti compresi tra 0 e 1.5 V.\\
+E' stata fatta l'interpolazione lineare dei punti nel \autoref{gr:amp_inv.tex} pesata dei punti compresi tra 0 e 1.5 V.\\
 $q = 0.02 \pm 0.03 \,V$\\
 $m = -10.0 \pm 0.1 \, \frac{V}{V}$
 
@@ -89,6 +93,8 @@ $A_\textrm{teorica}=10.08 \pm 0.07$ %inserire valore teorico
 Le misure sono state fatte applicando una tensione sinusoidale di frequenza $ f=1 \,kHz$, variando l'ampiezza tra 
 $0.2 V_\textrm{pp}$ e $4 V_\textrm{pp}$.
 
+In seguito è stato fatto il grafico della curva di trasferimento di un amplificatore non invertente.
+
 \begin{grafico} 
  \centering
  \resizebox{\textwidth}{!}{%
@@ -98,14 +104,16 @@ $0.2 V_\textrm{pp}$ e $4 V_\textrm{pp}$.
  \label{gr:amp_noninv.tex} 
 \end{grafico}
 
+In seguito sono presentati i dati del  \autoref{gr:amp_noninv.tex} acquisiti in laboratorio, con i rispettivi errori:
+
 \begin{tabella}
  \centering
  \input{tabelle/tab_non_inv.tex}
  \caption{Dati curva di trasferimento}
  \label{tab:tab_non_inv.tex}
 \end{tabella}
-
-E' stata fatta l'interpolazione lineare pesata dei punti compresi tra 0 e 1.5 V.\\
+E' stata fatta l'interpolazione lineare pesata dei punti nel  \autoref{gr:amp_noninv.tex} compresi tra 0 e 1.5 V.\\
 $q = -0.007 \pm 0.03 \, V$\\
 $m = 10.0 \pm 0.1 \,\frac{V}{V}$
+
 
