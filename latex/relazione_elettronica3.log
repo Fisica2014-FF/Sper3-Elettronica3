@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.3.5)  8 MAY 2016 22:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.3.5)  8 MAY 2016 22:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1777,7 +1777,7 @@ Package rerunfilecheck Info: File `relazione_elettronica3.out' has not changed.
 Here is how much of TeX's memory you used:
  28617 strings out of 493105
  516236 string characters out of 6137073
- 818311 words of memory out of 5000000
+ 812151 words of memory out of 5000000
  31190 multiletter control sequences out of 15000+600000
  177113 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1801,7 +1801,7 @@ usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></usr/
 share/texmf/fonts/type1/public/tex-gyre/qplb.pfb></usr/share/texmf/fonts/type1/
 public/tex-gyre/qplr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplri.pf
 b>
-Output written on relazione_elettronica3.pdf (18 pages, 240479 bytes).
+Output written on relazione_elettronica3.pdf (18 pages, 240165 bytes).
 PDF statistics:
  381 PDF objects out of 1000 (max. 8388607)
  342 compressed objects within 4 object streams
