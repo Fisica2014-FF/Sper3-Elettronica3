@@ -420,6 +420,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/huerta/alegreya/AlegreyaSans-Bold-
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/huerta/alegreya/AlegreyaSans-Bold-lf-t1.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qplr.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qplr.tfm
+INPUT ../grafici/risultati/amp_inv.tex
+INPUT ../grafici/risultati/amp_inv.tex
+INPUT tabelle/tab_inv.tex
+INPUT tabelle/tab_inv.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/huerta/alegreya/AlegreyaSans-Bold-lf-t1.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/huerta/alegreya/AlegreyaSans-Bold-lf-t1--base.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/eulervm/zeurm10.vf
@@ -439,14 +443,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/eulervm/zeuex10.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/euler/euex10.tfm
-INPUT ../grafici/risultati/amp_inv.tex
-INPUT ../grafici/risultati/amp_inv.tex
-INPUT tabelle/tab_inv.tex
-INPUT tabelle/tab_inv.tex
-INPUT ../grafici/risultati/amp_noninv.tex
-INPUT ../grafici/risultati/amp_noninv.tex
-INPUT tabelle/tab_non_inv.tex
-INPUT tabelle/tab_non_inv.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/eulervm/zeusm7.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm7.tfm
@@ -459,6 +455,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/eulervm/zeusm7.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm7.tfm
+INPUT ../grafici/risultati/amp_noninv.tex
+INPUT ../grafici/risultati/amp_noninv.tex
+INPUT tabelle/tab_non_inv.tex
+INPUT tabelle/tab_non_inv.tex
 INPUT ./sezioni/parti_esperimento/parte_2.tex
 INPUT ./sezioni/parti_esperimento/parte_2.tex
 INPUT ../grafici/risultati/amp_noninv_A10.tex
