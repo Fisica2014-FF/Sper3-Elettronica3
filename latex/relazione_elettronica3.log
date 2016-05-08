@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.3.5)  8 MAY 2016 22:58
-=======
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.14)  8 MAY 2016 23:14
->>>>>>> 4769adee9b743c65964502b5a53ac9f9a83bc0b6
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.1)  8 MAY 2016 23:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1559,28 +1555,19 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(./relazione_elettronica3.toc
-Overfull \hbox (0.61317pt too wide) detected at line 19
-\T1/qpl/b/n/10.95 VII 
- []
-
-)
+(./relazione_elettronica3.toc)
 \tf@toc=\write5
 \openout5 = `relazione_elettronica3.toc'.
 
-<<<<<<< HEAD
- (./sezioni/descrizione_app_strumentale.tex) (./sezioni/parti_esperimento.tex
-(./sezioni/parti_esperimento/parte_1.tex
-=======
  (./sezioni/descrizione_app_strumentale.tex
-<./img/alimentazione_opamp.pdf, id=102, 205.67601pt x 89.15651pt>
+<./img/alimentazione_opamp.pdf, id=92, 205.67601pt x 89.15651pt>
 File: ./img/alimentazione_opamp.pdf Graphic file (type pdf)
 
 <use ./img/alimentazione_opamp.pdf>
 Package pdftex.def Info: ./img/alimentazione_opamp.pdf used on input line 3.
 (pdftex.def)             Requested size: 363.84044pt x 157.73216pt.
 
-<./img/amplificazione_invertente.pdf, id=103, 262.33243pt x 129.283pt>
+<./img/amplificazione_invertente.pdf, id=93, 262.33243pt x 129.283pt>
 File: ./img/amplificazione_invertente.pdf Graphic file (type pdf)
 
 <use ./img/amplificazione_invertente.pdf>
@@ -1588,7 +1575,7 @@ Package pdftex.def Info: ./img/amplificazione_invertente.pdf used on input line
  9.
 (pdftex.def)             Requested size: 363.84044pt x 179.32011pt.
 
-<./img/amplificazione_non_invertente.pdf, id=104, 260.08527pt x 188.58705pt>
+<./img/amplificazione_non_invertente.pdf, id=94, 260.08527pt x 188.58705pt>
 File: ./img/amplificazione_non_invertente.pdf Graphic file (type pdf)
 
 <use ./img/amplificazione_non_invertente.pdf>
@@ -1605,7 +1592,6 @@ Package microtype Info: Character `029' is missing
 pdfTeX warning: pdflatex (file ./img/amplificazione_non_invertente.pdf): PDF in
 clusion: multiple pdfs with page group included in a single page
 >] (./sezioni/parti_esperimento/parte_1.tex
->>>>>>> 4769adee9b743c65964502b5a53ac9f9a83bc0b6
 LaTeX Font Info:    Try loading font information for T1+AlegreyaSans-LF on inpu
 t line 1.
 
@@ -1648,11 +1634,7 @@ t line 37.
  (./tabelle/tab_inv.tex)
 Package hyperref Info: bookmark level for unknown tabella defaults to 0 on inpu
 t line 46.
-<<<<<<< HEAD
- [3] [4]
-=======
  [4] [5] [6]
->>>>>>> 4769adee9b743c65964502b5a53ac9f9a83bc0b6
 (../grafici/risultati/amp_noninv.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1667,89 +1649,6 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-<<<<<<< HEAD
-) [5] (./tabelle/tab_non_inv.tex
-Overfull \hbox (3.7362pt too wide) in paragraph at lines 16--16
- []\T1/qpl/m/n/10.95 (-20) 0.120| 
- []
-
-)) [6] (./sezioni/parti_esperimento/parte_2.tex
-(../grafici/risultati/amp_noninv_A10.tex
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-) (./tabelle/tab_noninv_a10.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 28--34
-
- []
-
-[7] (../grafici/risultati/amp_noninv_A5.tex
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-) (./tabelle/tab_noninv_a5.tex)
-[8] (../grafici/risultati/amp_noninv_A1.tex
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-) (./tabelle/tab_noninv_a1.tex)
-(../grafici/risultati/amp_noninv_all.tex
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-)) [9] [10] [11] [12] [13] [14]
-[15]) (./sezioni/appendice.tex) (./sezioni/conclusioni.tex) [16
-
-]
-(./sezioni/codice.tex
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2014/09/06 1.5e listings language file
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2014/09/06 1.5e listings language file
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
-=======
 ) (./tabelle/tab_non_inv.tex
 Overfull \hbox (3.7362pt too wide) in paragraph at lines 16--16
  []\T1/qpl/m/n/10.95 (-20) 0.120| 
@@ -1819,10 +1718,38 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 )) [10] [11] [12] [13] [14] [15]
-[16]) (./sezioni/appendice.tex) (./sezioni/conclusioni.tex) [17
+[16]) (./sezioni/conclusioni.tex (../grafici/risultati/sim_a1.tex
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+)
+(../grafici/risultati/sim_a5.tex
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+) (../grafici/risultati/sim_a10.tex
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+)) [17
 
 ]
-(./sezioni/codice.tex
+[18] [19] (./sezioni/codice.tex
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
@@ -1831,7 +1758,6 @@ File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
->>>>>>> 4769adee9b743c65964502b5a53ac9f9a83bc0b6
 )
 LaTeX Font Info:    Font shape `T1/AnonymousPro/m/n' will be
 (Font)              scaled to size 8.81996pt on input line 7.
@@ -1841,40 +1767,27 @@ LaTeX Font Info:    Font shape `T1/AnonymousPro/m/it' will be
 (Font)              scaled to size 8.81996pt on input line 1.
 LaTeX Font Info:    Font shape `T1/AnonymousPro/b/n' will be
 (Font)              scaled to size 8.81996pt on input line 8.
-<<<<<<< HEAD
- [17])) [18]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
-=======
- [18]))
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
- [19]
->>>>>>> 4769adee9b743c65964502b5a53ac9f9a83bc0b6
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
+ [20
+
+]))
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
+ [21]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
  (./relazione_elettronica3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
 Package rerunfilecheck Info: File `relazione_elettronica3.out' has not changed.
 
-(rerunfilecheck)             Checksum: 30FD1E2FEA363DB20F443DC633B7B7C7;1083.
+(rerunfilecheck)             Checksum: 32F9339AE135EED4EF9CF4B4ECE79F05;978.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 28617 strings out of 493105
- 516236 string characters out of 6137073
- 812368 words of memory out of 5000000
- 31190 multiletter control sequences out of 15000+600000
- 177113 words of font info for 136 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 64i,14n,100p,878b,2128s stack positions out of 5000i,500n,10000p,200000b,80000s
-=======
- 26679 strings out of 493304
- 460686 string characters out of 6139870
- 770264 words of memory out of 5000000
- 29254 multiletter control sequences out of 15000+600000
- 177117 words of font info for 136 fonts, out of 8000000 for 9000
+ 27088 strings out of 493304
+ 469112 string characters out of 6139872
+ 810748 words of memory out of 5000000
+ 29644 multiletter control sequences out of 15000+600000
+ 177783 words of font info for 141 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  65i,14n,100p,878b,2131s stack positions out of 5000i,500n,10000p,200000b,80000s
->>>>>>> 4769adee9b743c65964502b5a53ac9f9a83bc0b6
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/anonymouspro/AnonymousPro-01.e
 nc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-rm.enc}{/usr/share/texlive/texm
 f-dist/fonts/enc/dvips/alegreya/algrs_rus6f4.enc}{/usr/share/texmf/fonts/enc/dv
@@ -1891,25 +1804,13 @@ sy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></usr/
-<<<<<<< HEAD
-share/texmf/fonts/type1/public/tex-gyre/qplb.pfb></usr/share/texmf/fonts/type1/
-public/tex-gyre/qplr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplri.pf
-b>
-Output written on relazione_elettronica3.pdf (18 pages, 240413 bytes).
-PDF statistics:
- 381 PDF objects out of 1000 (max. 8388607)
- 342 compressed objects within 4 object streams
- 135 named destinations out of 1000 (max. 500000)
- 32917 words of extra memory for PDF output out of 35830 (max. 10000000)
-=======
 share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/publ
 ic/tex-gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr.pfb></u
 sr/share/texmf/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on relazione_elettronica3.pdf (19 pages, 356182 bytes).
+Output written on relazione_elettronica3.pdf (21 pages, 389465 bytes).
 PDF statistics:
- 420 PDF objects out of 1000 (max. 8388607)
- 371 compressed objects within 4 object streams
- 139 named destinations out of 1000 (max. 500000)
- 32932 words of extra memory for PDF output out of 35830 (max. 10000000)
->>>>>>> 4769adee9b743c65964502b5a53ac9f9a83bc0b6
+ 424 PDF objects out of 1000 (max. 8388607)
+ 373 compressed objects within 4 object streams
+ 142 named destinations out of 1000 (max. 500000)
+ 32916 words of extra memory for PDF output out of 35830 (max. 10000000)
 

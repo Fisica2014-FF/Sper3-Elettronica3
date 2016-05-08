@@ -1,4 +1,4 @@
-PWD /home/francesco/git/Sper3-Elettronica3/latex
+PWD /home/enrico/Lab/Sper3/Elettronica/Sper3-Elettronica3/latex
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
@@ -440,22 +440,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr7.tfm
-<<<<<<< HEAD
-INPUT ../grafici/risultati/amp_inv.tex
-INPUT ../grafici/risultati/amp_inv.tex
-INPUT tabelle/tab_inv.tex
-INPUT tabelle/tab_inv.tex
-INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qplb.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/eulervm/zeuex10.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/euler/euex10.tfm
-INPUT ../grafici/risultati/amp_noninv.tex
-INPUT ../grafici/risultati/amp_noninv.tex
-=======
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/eulervm/zeuex10.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/euler/euex10.tfm
->>>>>>> 4769adee9b743c65964502b5a53ac9f9a83bc0b6
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/eulervm/zeusm7.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm7.tfm
@@ -468,6 +455,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/eulervm/zeusm7.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/euler/eufm7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/euler/eusm7.tfm
+INPUT ../grafici/risultati/amp_noninv.tex
+INPUT ../grafici/risultati/amp_noninv.tex
 INPUT tabelle/tab_non_inv.tex
 INPUT tabelle/tab_non_inv.tex
 INPUT ./sezioni/parti_esperimento/parte_2.tex
@@ -486,10 +475,14 @@ INPUT tabelle/tab_noninv_a1.tex
 INPUT tabelle/tab_noninv_a1.tex
 INPUT ../grafici/risultati/amp_noninv_all.tex
 INPUT ../grafici/risultati/amp_noninv_all.tex
-INPUT ./sezioni/appendice.tex
-INPUT ./sezioni/appendice.tex
 INPUT ./sezioni/conclusioni.tex
 INPUT ./sezioni/conclusioni.tex
+INPUT ../grafici/risultati/sim_a1.tex
+INPUT ../grafici/risultati/sim_a1.tex
+INPUT ../grafici/risultati/sim_a5.tex
+INPUT ../grafici/risultati/sim_a5.tex
+INPUT ../grafici/risultati/sim_a10.tex
+INPUT ../grafici/risultati/sim_a10.tex
 INPUT ./sezioni/codice.tex
 INPUT ./sezioni/codice.tex
 INPUT ../src/opamp_p1/OpampAnalisys.cpp
@@ -537,10 +530,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb
-<<<<<<< HEAD
-=======
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb
->>>>>>> 4769adee9b743c65964502b5a53ac9f9a83bc0b6
 INPUT /usr/share/texmf/fonts/type1/public/tex-gyre/qplb.pfb
 INPUT /usr/share/texmf/fonts/type1/public/tex-gyre/qplr.pfb
 INPUT /usr/share/texmf/fonts/type1/public/tex-gyre/qplri.pfb
