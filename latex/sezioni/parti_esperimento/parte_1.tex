@@ -27,9 +27,11 @@ $A_{teorica}=10.28 \pm 0.08$ %inserire valore teorico
 Le misure sono state fatte applicando una tensione sinusoidale di frequenza $ f=1 \,kHz$, variando l'ampiezza tra 
 $0.2 V_{pp}$ e $4 V_{pp}$.
 
-\begin{grafico} 
- \centering 
- \input{../grafici/risultati/amp_inv.tex} 
+\begin{grafico}
+ \centering
+ \resizebox{\textwidth}{!}{%
+ \input{../grafici/risultati/amp_inv.tex}
+ }%
  \caption{Curva di trasferimento di un amplificatore invertente} 
  \label{gr:amp_inv.tex} 
 \end{grafico}
@@ -88,15 +90,17 @@ Le misure sono state fatte applicando una tensione sinusoidale di frequenza $ f=
 $0.2 V_{pp}$ e $4 V_{pp}$.
 
 \begin{grafico} 
- \centering 
- \input{../grafici/risultati/amp_noninv.tex} 
+ \centering
+ \resizebox{\textwidth}{!}{%
+ \input{../grafici/risultati/amp_noninv.tex}
+ }%
  \caption{Curva di trasferimento di un amplificatore invertente} 
  \label{gr:amp_noninv.tex} 
 \end{grafico}
 
 \begin{tabella}
  \centering
- \input{tabelle/tab_non_inv.tex} 
+ \input{tabelle/tab_non_inv.tex}
  \caption{Dati curva di trasferimento}
  \label{tab:tab_non_inv.tex}
 \end{tabella}
