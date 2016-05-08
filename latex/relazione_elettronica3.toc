@@ -1,0 +1,18 @@
+\select@language {italian}
+\select@language {italian}
+\contentsline {section}{\numberline {I}Schema Circuiti}{2}{section.1}
+\contentsline {section}{\numberline {II}Parte I}{4}{section.2}
+\contentsline {subsection}{\numberline {I}Amplificatore invertente}{4}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {I.1}Calcolo amplificazione}{4}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {I.2}Analisi}{4}{subsubsection.2.1.2}
+\contentsline {subsection}{\numberline {II}Amplificatore non invertente}{5}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {II.1}Calcolo amplificazione}{6}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {II.2}Analisi}{7}{subsubsection.2.2.2}
+\contentsline {section}{\numberline {III}Parte II}{8}{section.3}
+\contentsline {subsection}{\numberline {I}Amplificatore con A=10}{8}{subsection.3.1}
+\contentsline {subsection}{\numberline {II}Amplificatore con A=5}{9}{subsection.3.2}
+\contentsline {subsection}{\numberline {III}Amplificatore con A=1}{10}{subsection.3.3}
+\contentsline {section}{\numberline {IV}Discussioni e conclusioni}{16}{section.4}
+\contentsline {section}{\numberline {V}Codice}{19}{section.5}
+\contentsline {subsection}{\numberline {I}Parte 1}{19}{subsection.5.1}
+\contentsline {subsection}{\numberline {II}Parte 1}{24}{subsection.5.2}
