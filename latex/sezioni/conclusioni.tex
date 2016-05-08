@@ -1,1 +1,44 @@
-da cambiare
+E' stata fatta la simulazione per la risposta in frequenza utilizzando Spice, con l'accortezza di scaricare la libreria del componente
+dal sito della Texas Instrument.
+I  \autoref{gr:sim_a5.tex} e \autoref{gr:sim_a10.tex} mostrano il confronto della simulazione con 
+i dati sperimentali e mostrano un buon accordo tra i dati e la simulazione.
+Nel \autoref{gr:sim_a1.tex}, relativo all'ampificazione A=1, si nota una deviazione dei dati sperimentali dovuta alla risonanza,
+causata dalle induttanze parassite nel circuito reale, che comportano lo spostamento verso le basse frequenze del polo.
+
+\begin{grafico}
+ \centering
+ \resizebox{\textwidth}{!}{%
+ \input{../grafici/risultati/sim_a1.tex}
+ }%
+ \caption{Risposta in frequenza con Spice confrontata coi dati sperimentali (A=1)} 
+ \label{gr:sim_a1.tex} 
+\end{grafico}
+
+\begin{grafico}
+ \centering
+ \resizebox{\textwidth}{!}{%
+ \input{../grafici/risultati/sim_a5.tex}
+ }%
+ \caption{Risposta in frequenza con Spice confrontata coi dati sperimentali (A=5)} 
+ \label{gr:sim_a5.tex} 
+\end{grafico}
+
+\begin{grafico}
+ \centering
+ \resizebox{\textwidth}{!}{%
+ \input{../grafici/risultati/sim_a10.tex}
+ }%
+ \caption{Risposta in frequenza con Spice confrontata coi dati sperimentali (A=10)} 
+ \label{gr:sim_a10.tex} 
+\end{grafico}
+
+Queste differenze si ripercuotono sul Gain-Bandwidth Product. Infatti è più basso di quello previsto nel datasheet fornito dal 
+produttore ( $3 \cdot 10^{6}$), differenza visibile soprattutto con amplificazione A=1.
+Leggendo il datasheet della Texas Instrument è emerso che una possibile giustificazione a questa discrepanza è che non sono state
+seguite alcune linee guida indicate. Non sono stati posti, ad esempio, i condensatori vicino all'amplificatore operazionale,
+accorgimento che avrebbe ridotto l'induttanza del circuito di alimentazione ad alte frequenze.
+Inoltre l'uso di una breadboard ha introdotto numerose capacità e induttanze parassite, che hanno interferito nella delicata
+misura di $f_b$.
+
+
+
