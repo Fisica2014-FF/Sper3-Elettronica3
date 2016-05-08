@@ -7,8 +7,8 @@ $R_2=101.3 \pm 0.6\,k\Omega$\\ %mettere errore
 $R_3=56.0 \pm 0.3\,\Omega$\\ %mettere errore
 
 Per il calcolo degli errori sul valore delle resistenze, lette sull'Agilent U1232A, è stata utilizzata la seguente formula:
-$$\sigma_{tot}=\sqrt{ \sigma^{2} _{\%} + \sigma^{2} _{dgt}}$$
-Per il calcolo delle $\sigma_{tot}$ è stato cercato del datasheet dello strumento, l'errore percentuale e di digit
+$$\sigma_\textrm{tot}=\sqrt{ \sigma^{2} _\textrm{\%} + \sigma^{2} _\textrm{dgt}}$$
+Per il calcolo delle $\sigma_\textrm{tot}$ è stato cercato del datasheet dello strumento, l'errore percentuale e di digit
 corrispondente al fondo scala utilizzato.
 
 \subsubsection{Calcolo amplificazione}
@@ -22,10 +22,10 @@ Da cui si ricava la relazione per il calcolo di A.
 
 \subsubsection{Analisi}
 La stima di A teorica, a partire dalle resistenze misurate è:
-$A_{teorica}=10.28 \pm 0.08$ %inserire valore teorico
+$A_\textrm{teorica}=10.28 \pm 0.08$ %inserire valore teorico
 
 Le misure sono state fatte applicando una tensione sinusoidale di frequenza $ f=1 \,kHz$, variando l'ampiezza tra 
-$0.2 V_{pp}$ e $4 V_{pp}$.
+$0.2 V_\textrm{pp}$ e $4 V_\textrm{pp}$.
 
 \begin{grafico}
  \centering
@@ -43,8 +43,8 @@ $0.2 V_{pp}$ e $4 V_{pp}$.
  \label{tab:tab_inv.tex}
 \end{tabella}
 
-Per il calcolo degli errori sui valori di $V_{in}$ e $V_{out}$ letti sull'oscilloscopio, è stata utilizzata la seguente formula:
-$$\sigma_{tot}=\sqrt{ (0.02\cdot V_{letto})^2 + (0.06 \cdot V_{div})^2}$$
+Per il calcolo degli errori sui valori di $V_\textrm{in}$ e $V_\textrm{out}$ letti sull'oscilloscopio, è stata utilizzata la seguente formula:
+$$\sigma_\textrm{tot}=\sqrt{ (0.02\cdot V_\textrm{letto})^2 + (0.06 \cdot V_\textrm{div})^2}$$
 
 E' stata fatta l'interpolazione lineare pesata dei punti compresi tra 0 e 1.5 V.\\
 $q = 0.02 \pm 0.03 \,V$\\
@@ -58,36 +58,36 @@ $m = -10.0 \pm 0.1 \, \frac{V}{V}$
 Schema amplificatore non invertente:
 %inserire circuito
 Le resistenze sono state scelte in modo da avere guadagno $A=10 \frac{V}{V}$\\
-$R_{1,up}=9.91 \pm0.05 \,k\Omega $\\ %mettere errore
-$R_{1,down}=9.85 \pm 0.05\,k\Omega$\\ %mettere errore
-$R_{2,up}=99.7 \pm 0.6\,k\Omega$\\ %mettere errore
-$R_{2,down}=101.3 \pm 0.6\,k\Omega$\\
+$R_\textrm{1,up}=9.91 \pm0.05 \,k\Omega $\\ %mettere errore
+$R_\textrm{1,down}=9.85 \pm 0.05\,k\Omega$\\ %mettere errore
+$R_\textrm{2,up}=99.7 \pm 0.6\,k\Omega$\\ %mettere errore
+$R_\textrm{2,down}=101.3 \pm 0.6\,k\Omega$\\
 $R_4=56.0 \pm 0.3\,\Omega$
 
 \subsubsection{Calcolo amplificazione}
 La relazione tra le resistenze, affichè soddisfino la richiesta A=10 è la seguente:
 Nell'ingresso non invertente:
-$$\frac{V_1-V_p}{R_{1down}}=\frac{V_p}{R_{2down}}$$
-$$\frac{V_1}{R_{1down}}=\frac{V_p}{R_{1down}}+\frac{V_p}{R_{2down}}=V_p \left(\frac{1}{R_{1down}}+\frac{1}{R_{2down}}\right)$$
+$$\frac{V_1-V_p}{R_\textrm{1down}}=\frac{V_p}{R_\textrm{2down}}$$
+$$\frac{V_1}{R_\textrm{1down}}=\frac{V_p}{R_\textrm{1down}}+\frac{V_p}{R_\textrm{2down}}=V_p \left(\frac{1}{R_\textrm{1down}}+\frac{1}{R_\textrm{2down}}\right)$$
 
 Nell'ingresso invertente:
-$$\frac{V_0-V_n}{R_{2up}}=\frac{V_n}{R_{1up}}$$
-$$\frac{V_0}{R_{2up}}=\frac{V_n}{R_{1up}}+\frac{V_n}{R_{2up}}=V_n \left(\frac{1}{R_{1up}}+\frac{1}{R_{2up}}\right)$$
+$$\frac{V_0-V_n}{R_\textrm{2up}}=\frac{V_n}{R_\textrm{1up}}$$
+$$\frac{V_0}{R_\textrm{2up}}=\frac{V_n}{R_\textrm{1up}}+\frac{V_n}{R_\textrm{2up}}=V_n \left(\frac{1}{R_\textrm{1up}}+\frac{1}{R_\textrm{2up}}\right)$$
 
 Poichè 
 $$V_p=V_n$$
 
-$$\frac{V_1}{R_{1down}} \frac{1}{\left(\frac{1}{R_{1down}}+\frac{1}{R_{2down} }\right)}=\frac{V_0}{R_{2up}} \frac{1}{\left(\frac{1}{R_{1up}}+\frac{1}{R_{2up}} \right)}$$
-$$V_0=\frac{R_{2up}}{R_{1down}} \cdot V_1 \frac{\left(\frac{1}{R_{1up}}+\frac{1}{R_{2up} }\right)}{\left(\frac{1}{R_{1down}}+\frac{1}{R_{2down}} \right)}$$
+$$\frac{V_1}{R_\textrm{1down}} \frac{1}{\left(\frac{1}{R_\textrm{1down}}+\frac{1}{R_\textrm{2down} }\right)}=\frac{V_0}{R_\textrm{2up}} \frac{1}{\left(\frac{1}{R_\textrm{1up}}+\frac{1}{R_\textrm{2up}} \right)}$$
+$$V_0=\frac{R_\textrm{2up}}{R_\textrm{1down}} \cdot V_1 \frac{\left(\frac{1}{R_\textrm{1up}}+\frac{1}{R_\textrm{2up} }\right)}{\left(\frac{1}{R_\textrm{1down}}+\frac{1}{R_\textrm{2down}} \right)}$$
 Da cui si ricava la relazione per il calcolo di A.
-Se poi si assume che $R_{1down}=R_{1up}$ e $R_{2down}=R_{2up}$, la relazione si semplifica a 
-$$V_0=\frac{R_{2up}}{R_{1down}} \cdot V_1$$
+Se poi si assume che $R_\textrm{1down}=R_\textrm{1up}$ e $R_\textrm{2down}=R_\textrm{2up}$, la relazione si semplifica a 
+$$V_0=\frac{R_\textrm{2up}}{R_\textrm{1down}} \cdot V_1$$
 \subsubsection{Analisi}
 La stima di A teorica, a partire dalle resistenze misurate è:\\
-$A_{teorica}=10.08 \pm 0.07$ %inserire valore teorico
+$A_\textrm{teorica}=10.08 \pm 0.07$ %inserire valore teorico
 
 Le misure sono state fatte applicando una tensione sinusoidale di frequenza $ f=1 \,kHz$, variando l'ampiezza tra 
-$0.2 V_{pp}$ e $4 V_{pp}$.
+$0.2 V_\textrm{pp}$ e $4 V_\textrm{pp}$.
 
 \begin{grafico} 
  \centering
