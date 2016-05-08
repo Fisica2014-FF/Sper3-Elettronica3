@@ -1,0 +1,19 @@
+\select@language {italian}
+\select@language {italian}
+\contentsline {section}{\numberline {I}Schema Circuiti}{2}{section.1}
+\contentsline {section}{\numberline {II}Parte I}{3}{section.2}
+\contentsline {subsection}{\numberline {I}Amplificatore invertente}{3}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {I.1}Calcolo amplificazione}{4}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {I.2}Analisi}{4}{subsubsection.2.1.2}
+\contentsline {subsection}{\numberline {II}Amplificatore non invertente}{4}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {II.1}Calcolo amplificazione}{5}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {II.2}Analisi}{6}{subsubsection.2.2.2}
+\contentsline {section}{\numberline {III}Parte II}{8}{section.3}
+\contentsline {subsection}{\numberline {I}Amplificatore con A=10}{8}{subsection.3.1}
+\contentsline {subsection}{\numberline {II}Amplificatore con A=5}{8}{subsection.3.2}
+\contentsline {subsection}{\numberline {III}Amplificatore con A=1}{9}{subsection.3.3}
+\contentsline {subsection}{\numberline {IV}Discussione dei punti precedenti}{10}{subsection.3.4}
+\contentsline {section}{\numberline {IV}Analisi dei dati}{17}{section.4}
+\contentsline {section}{\numberline {V}Appendice: calcolo degli errori}{17}{section.5}
+\contentsline {section}{\numberline {VI}Conclusioni}{17}{section.6}
+\contentsline {section}{\numberline {VII}Codice}{18}{section.7}
