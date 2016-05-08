@@ -77,6 +77,7 @@ void OpampAnalysis::analysis()
 	g->GetXaxis()->SetTitle("f [Hz]");
 	g->GetYaxis()->SetTitle("A");
 	g->Draw("AP");
+	g->Print();
 
 	// Interpolation function, works on log10(y)
 	TF1* fFall = new TF1("Discesa", "[0] + [1]*log10(x)");

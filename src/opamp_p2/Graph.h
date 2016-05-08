@@ -23,7 +23,7 @@ class Graph
 		};
 		double* y()
 		{
-			return vx.data();
+			return vy.data();
 		};
 		double* ex()
 		{

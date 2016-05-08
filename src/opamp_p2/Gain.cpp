@@ -28,9 +28,9 @@ int main(int argc, char** argv)
 
 	// initialize parameters
 	array<AdHocParameters, 3> parameters{{
-		{"/amp_noninv_A1", 5001, 100001, 399999},
+		{"/amp_noninv_A1", 100000, 1000000, 2000000},
 		{"/amp_noninv_A5", 99999, 300001, 999999},
-		{"/amp_noninv_A10", 100000, 1000000, 2000000}
+		{"/amp_noninv_A10", 5001, 100001, 399999}
 	}};
 
 	for (auto i: parameters)
