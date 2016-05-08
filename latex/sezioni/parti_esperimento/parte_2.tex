@@ -18,22 +18,24 @@ Le resistenze inserite sono le stesse dello schema precedente, e quindi anche l'
  \label{tab:tab_noninv_A10.tex}
 \end{tabella}
 
-Sono state interpolate separatamente la zona di plateau e di discesa, ottenendo come risultati:
-$A_{plateau}=quel che è \pm$
-%inserire retta interpolante
+Sono state interpolate separatamente la zona di plateau e di discesa, ottenendo come risultati:\\
+$A_{plateau}=10.1 \pm 0.1 $\\
+$q = 4.0 \pm 0.6$\\
+$m = -0.6 \pm 0.1$
 
-La closed-loop bandwidth, $f_b$, del circuito, è stata ricavata intersecando la retta di discesa con la retta orizzontale a 
-$-3 \,dB$ e applicando la propagazione degli errori al calcolo %da fare
-$f_b= \pm \,Hz $
-Il GBP è
-$GBP=A_{CL} \cdot f_b $
+La closed-loop bandwidth, $f_b$, del circuito, è stata ricavata tradformando il grafico come $y'=log_{10}(y)$, interpolando la parte costante, 
+traslandola di 3dB ($log_{10}(\sqrt{2})$) verso il basso e intersecandola con la retta ottenuta interpolando la parte di discesa. La $f_b$ era poi l'esponenziale in base 10 dell'intersezione.
+L'errore è stato poi calcolato effettuando una propagazione degli errori sulla $f_b$, tenendo conto anche dell'alta correlazione tra i coefficienti della retta ($-0.9995$).\\%da fare
+$f_b= 215 \pm 7 \,kHz $\\
+Il GBP è\\
+$GBP=A_{CL} \cdot f_b = 2.17 \pm 0.08 \,MHz$\\
 
 \subsection{Amplificatore con A=5}
-Le resistenze inserite sono state sostituite con:
-$R_{1,up}=5.54 \pm 0.03\,k\Omega $%mettere errore
-$R_{1,down}=5.54 \pm 0.03\,k\Omega$ %mettere errore
-$R_{2,up}=26.9 \pm 0.1\,k\Omega$ %mettere errore
-$R_{2,down}=26.9 \pm 0.2 \,k\Omega$
+Le resistenze inserite sono state sostituite con:\\
+$R_{1,up}=5.54 \pm 0.03\,k\Omega $\\ %mettere errore
+$R_{1,down}=5.54 \pm 0.03\,k\Omega$\\ %mettere errore
+$R_{2,up}=26.9 \pm 0.1\,k\Omega$\\ %mettere errore
+$R_{2,down}=26.9 \pm 0.2 \,k\Omega$\\
 $R_4=56.0 \pm 0.3\,\Omega$
 
 \begin{grafico}
@@ -50,22 +52,23 @@ $R_4=56.0 \pm 0.3\,\Omega$
  \label{tab:tab_noninv_A5.tex}
 \end{tabella}
 
-Sono state interpolate separatamente la zona di plateau e di discesa, ottenendo come risultati:
-$A_{plateau}=quel che è \pm$
-%inserire retta interpolante
+Sono state interpolate separatamente la zona di plateau e di discesa, ottenendo come risultati:\\
+$A_{plateau}=4.88 \pm 0.06$\\
+$q = 3.7 \pm 0.7$\\
+$m = -0.5 \pm 0.1$
 
 Dall'interpolazione si è poi ricavato 
-$f_b= \pm \,Hz $
-Il GBP è
-$GBP=A_{CL} \cdot f_b $
+$f_b= 520 \pm 20 \,kHz $\\
+Il GBP è\\
+$GBP=A_{CL} \cdot f_b = 2.5 \pm 0.1 \,MHz$
 
 
 \subsection{Amplificatore con A=1}
-Le resistenze inserite sono state sostituite con:
-$R_{1,up}=32.6 \pm 0.2 \,k\Omega $%mettere errore
-$R_{1,down}=32.6 \pm 0.2\,k\Omega$ %mettere errore
-$R_{2,up}=32.7 \pm 0.2\,k\Omega$ %mettere errore
-$R_{2,down}=32.5 \pm 0.2\,k\Omega$
+Le resistenze inserite sono state sostituite con:\\
+$R_{1,up}=32.6 \pm 0.2 \,k\Omega $\\ %mettere errore
+$R_{1,down}=32.6 \pm 0.2\,k\Omega$\\ %mettere errore
+$R_{2,up}=32.7 \pm 0.2\,k\Omega$\\ %mettere errore
+$R_{2,down}=32.5 \pm 0.2\,k\Omega$\\
 $R_4=56.0 \pm 0.3\,\Omega$
 \begin{grafico}
  \centering 
@@ -81,14 +84,15 @@ $R_4=56.0 \pm 0.3\,\Omega$
  \label{tab:tab_noninv_A1.tex}
 \end{tabella}
 
-Sono state interpolate separatamente la zona di plateau e di discesa, ottenendo come risultati:
-$A_{plateau}=quel che è \pm$
-%inserire retta interpolante
+Sono state interpolate separatamente la zona di plateau e di discesa, ottenendo come risultati:\\
+$A_{plateau}=1.01 \pm 0.01$\\
+$q = 12.6 \pm 0.4$\\
+$m  = -2.11 \pm 0.06$
 
 Dall'interpolazione si è poi ricavato 
-$f_b= \pm \,Hz $
-Il GBP è
-$GBP=A_{CL} \cdot f_b $
+$f_b=1.12\pm 0.01 \,MHz $\\
+Il GBP è\\
+$GBP=A_{CL} \cdot f_b  = 1.13 \pm 0.02 \,MHz$
 
 \subsection{Discussione dei punti precedenti}
 
